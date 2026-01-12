@@ -1,0 +1,32 @@
+# HEIMDALL - Requirements
+# Real-Time Hallucination Detection via Coherence Inversion
+
+# Core ML Framework
+torch>=2.0.0
+transformers>=4.30.0
+
+# Quantization (4-bit support for 7B+ models)
+bitsandbytes>=0.41.0
+accelerate>=0.20.0
+
+# Topological Data Analysis
+gudhi>=3.8.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning Utilities
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+
+# Dataset Loading
+datasets>=2.12.0
+
+# Hugging Face Hub
+huggingface-hub>=0.16.0

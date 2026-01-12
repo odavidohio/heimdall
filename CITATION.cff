@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or discovery, please cite it as below."
+authors:
+  - family-names: "Ohio"
+    given-names: "David"
+    orcid: ""
+title: "HEIMDALL: Real-Time Hallucination Detection via Coherence Inversion"
+version: 1.0.0
+date-released: 2026-01-12
+url: "https://github.com/davidohio/heimdall"
+license: Apache-2.0
+repository-code: "https://github.com/davidohio/heimdall"
+keywords:
+  - hallucination-detection
+  - topological-data-analysis
+  - large-language-models
+  - attention-mechanisms
+  - ai-safety
+abstract: "Real-time hallucination detection framework using topological data analysis of attention patterns in Large Language Models. Identifies coherence inversion - the counter-intuitive observation that hallucinated responses exhibit higher topological coherence than factual ones."

@@ -1,0 +1,184 @@
+# HEIMDALL - Git Ignore
+
+# =============================================================================
+# Windows Reserved Names (IMPORTANT)
+# =============================================================================
+nul
+NUL
+con
+CON
+prn
+PRN
+aux
+AUX
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+venv/
+ENV/
+env/
+.venv/
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.claude/
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+# Model Cache & Data
+# =============================================================================
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+models/
+checkpoints/
+
+# =============================================================================
+# Hugging Face Cache
+# =============================================================================
+.huggingface/
+
+# =============================================================================
+# Output Files (generated during tests)
+# =============================================================================
+*_results.png
+*_results.json
+*_summary.json
+heimdall_llm_results.png
+heimdall_gpt2_results.png
+heimdall_optimized_results.png
+heimdall_halueval_benchmark.png
+heimdall_halueval_results.csv
+
+# =============================================================================
+# OS Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# LaTeX Build Files
+# =============================================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.out
+
+# =============================================================================
+# Temporary Files
+# =============================================================================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# =============================================================================
+# Environment Variables
+# =============================================================================
+.env
+.env.local
+*.env
+
+# =============================================================================
+# Project-specific exclusions (original Portuguese files in root)
+# =============================================================================
+
+# Root-level Portuguese markdown documentation (using /prefix for root only)
+/ARTIGO_GUIA.md
+/AUTENTICACAO_RAPIDA.md
+/CHANGELOG.md
+/COMANDOS_RAPIDOS.md
+/CONFIGURACAO_FINAL.md
+/CONFIGURACOES.md
+/CUDA_SETUP.md
+/DATASET_50_AMOSTRAS.md
+/HALUEVAL_DATASET_UPDATE.md
+/INDEX.md
+/INSTALL.md
+/LLAMA3_SETUP.md
+/PHI3_SETUP.md
+/PROBLEMA_HALUEVAL_CORRIGIDO.md
+/QUICKSTART.md
+/RESUMO_COMPLETO.md
+/TROCAR_MODELO.md
+/USAGE_GUIDE.md
+
+# Root-level Portuguese scripts (using /prefix for root only)
+/check_cuda.py
+/check_environment.py
+/install_pytorch_cuda.py
+/model_config.py
+/example_usage.py
+compare_modes.py
+authenticate_huggingface.py
+switch_to_llama3.py
+switch_to_phi3.py
+switch_model.py
+heimdall_layer_sweep.py
+heimdall_llm_test.py
+heimdall_llm_test_optimized.py
+heimdall_halueval_benchmark.py
+heimdall_persistence_biopsy.py
+generate_signature_proof.py
+heimdall_full_model_sweep.py
+heimdall_pinpoint_sweep.py
+
+# LaTeX source files (only PDF in docs/)
+*.tex
+*.bib
+references.bib
+heimdall_coherence_inversion.tex
+
+# Development folders
+cannonball run/
+
+# Log files
+*.log
