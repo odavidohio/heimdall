@@ -157,28 +157,25 @@ temp/
 /install_pytorch_cuda.py
 /model_config.py
 /example_usage.py
-compare_modes.py
-authenticate_huggingface.py
-switch_to_llama3.py
-switch_to_phi3.py
-switch_model.py
-heimdall_layer_sweep.py
-heimdall_llm_test.py
-heimdall_llm_test_optimized.py
-heimdall_halueval_benchmark.py
-heimdall_persistence_biopsy.py
-generate_signature_proof.py
-heimdall_full_model_sweep.py
-heimdall_pinpoint_sweep.py
+/compare_modes.py
+/authenticate_huggingface.py
+/switch_to_llama3.py
+/switch_to_phi3.py
+/switch_model.py
+/heimdall_layer_sweep.py
+/heimdall_llm_test.py
+/heimdall_llm_test_optimized.py
+/heimdall_halueval_benchmark.py
+/heimdall_persistence_biopsy.py
+/generate_signature_proof.py
+/heimdall_full_model_sweep.py
+/heimdall_pinpoint_sweep.py
 
 # LaTeX source files (only PDF in docs/)
 *.tex
 *.bib
 references.bib
 heimdall_coherence_inversion.tex
-
-# Development folders
-cannonball run/
 
 # Log files
 *.log
