@@ -7,9 +7,9 @@ authors:
 title: "HEIMDALL: Real-Time Hallucination Detection via Coherence Inversion"
 version: 1.0.0
 date-released: 2026-01-12
-url: "https://github.com/davidohio/heimdall"
+url: "https://github.com/odavidohio/heimdall"
 license: Apache-2.0
-repository-code: "https://github.com/davidohio/heimdall"
+repository-code: "https://github.com/odavidohio/heimdall"
 keywords:
   - hallucination-detection
   - topological-data-analysis

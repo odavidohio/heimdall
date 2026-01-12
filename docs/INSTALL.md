@@ -10,7 +10,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/davidohio/heimdall.git
+git clone https://github.com/odavidohio/heimdall.git
 cd heimdall
 
 # Install dependencies

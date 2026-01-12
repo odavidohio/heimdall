@@ -31,7 +31,7 @@ This counter-intuitive "coherence inversion" enables real-time detection with **
 
 ```bash
 # Clone repository
-git clone https://github.com/davidohio/heimdall.git
+git clone https://github.com/odavidohio/heimdall.git
 cd heimdall
 
 # Install dependencies
@@ -64,6 +64,13 @@ heimdall/
 │   ├── test_gpt2.py             # Basic test (CPU)
 │   ├── test_optimized.py        # Optimized test (GPU)
 │   └── benchmark_halueval.py    # HaluEval benchmark
+│
+├── cannonball run/              # Cross-architecture validation
+│   ├── heimdall_full_model_sweep.py    # Full sweep script
+│   ├── heimdall_sweep_mistral.csv      # Mistral results
+│   ├── heimdall_sweep_llama.csv        # Llama results
+│   ├── heimdall_sweep_phi3.csv         # Phi-3 results
+│   └── *.png                           # Visualizations
 │
 ├── docs/                        # Documentation
 │   ├── paper.pdf                # Research paper
@@ -177,4 +184,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 - **Author**: David Ohio
 - **Email**: odavidohio@gmail.com
-- **Repository**: https://github.com/davidohio/heimdall
+- **Repository**: https://github.com/odavidohio/heimdall
